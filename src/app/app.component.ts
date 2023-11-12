@@ -5,7 +5,11 @@ import {Component} from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <h1>boop</h1>
+    <main>
+      <header class="brand-name">
+        <img class="brand-logo" src="/assets/logo.svg" alt="logo" arial-hidden="true">
+      </header>
+    </main>
   `,
   styleUrls: ['./app.component.css'],
 })
