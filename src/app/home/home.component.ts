@@ -21,8 +21,7 @@ import { HousingLocation } from '../housing-location';
       ></app-housing-location>
     </section>
   `,
-  styles: [
-  ]
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
   housingLocationList: HousingLocation[] = [
