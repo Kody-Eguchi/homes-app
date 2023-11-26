@@ -33,8 +33,7 @@ import { HousingLocation } from '../housing-location';
       </section>
     </article>
   `,
-  styles: [
-  ]
+  styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
   route: ActivatedRoute = inject(ActivatedRoute);
